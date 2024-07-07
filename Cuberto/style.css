@@ -1,0 +1,368 @@
+@import url(https://db.onlinewebfonts.com/c/ace51fb0e489a977bed8a67511865c11?family=Averta+CY+W01+Bold);
+*::selection {
+    color: #ffff;
+    background-color: #000;
+}
+*{
+    
+    font-family: "Averta CY W01 BOLD";
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    background-color: #fff;
+    width: 100%;
+
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+#navbar img{
+    width: 100px;
+}
+#navbar #menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.2vw;
+    letter-spacing: -1px;
+}
+
+#navbar i {
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+
+#home #body-main{
+    width: 100%;
+
+    padding: 15vw 16vw;
+
+}
+#body-main h3{
+    font-weight: 500;
+    letter-spacing: -.1vw;
+    font-size: 1.34vw;
+}
+
+.body-main-letter{
+    gap: 40px;
+    display: flex;
+}
+
+#body-main .body-main-letter h1{
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 1;
+    /* THIS TWO PROPERTY FOR BLUR THE BACKGROUND */
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    /* STROKE AND TRANSPARENT */
+    letter-spacing: -5px;
+}
+#body-last {
+    padding: 5vw 15vw;
+}
+#body-main .body-main-letter h1:hover {
+    color: #000;
+}
+
+
+
+#body-last p{
+    font-size: 1.6vw;
+    width: 70%; 
+    letter-spacing: -.02vw;
+    font-weight: 400
+}
+
+#body-last p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+
+#featured{
+    padding: 10vw 15vw;
+}
+.featured-heading >h1{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 1;
+
+
+}
+
+
+.featured-heading>h1:nth-child(2){
+    -webkit-text-stroke: 1px #000;
+  color: transparent;
+}
+
+
+#featured-images{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+
+}
+
+#fleft{
+    width: 50%;
+    overflow: hidden;
+    height: inherit;
+    
+}
+.fleft-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:inherit;
+}
+.fleft-text h3{
+    opacity: .5;
+}
+.fleft-text h3{
+    font-size: 1.4vw;
+    font-weight:400 ;
+}
+.fleft-text h1{
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-trim: 1.vw 0;
+    line-height: 1;
+    font-size: 2.5vw;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttondiv button{
+    letter-spacing: -1px;
+    padding: 1.2vw 1.5vw;
+    border: 2px solid #e6e6e6;
+    font-size: 1.4vw;
+    border-radius: 100px;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-weight: 400;
+    width: 60%;
+    font-size: 3.8vw;
+    line-height: 1;
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+.slide {
+    width: 30%;
+}
+.slide .img {
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;
+    border-radius: 9.5px;
+    height: 270px;
+}
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .tag {
+    margin: 20px 0;
+    padding: 10px 22px;
+    width: fit-content;
+    border-radius: 100px;
+    background-color: #f7f7f7;
+}
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+#slides{
+    padding:3vw 10vw ;
+    display: flex;
+    justify-content: space-between;
+}
+#fright{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+height: inherit;
+
+}
+#fright .images{
+    width: 90%;
+    height: 90%;
+}
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+footer{
+    padding: 1.7vw 1.2vw;
+    width: 100%;
+}
+
+  #onlyvideo{
+    width: 100%;
+    height: 100vh;
+}
+#onlyvideo>video{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+#ring{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw 10vw;
+}
+#ring>video{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+#ring #rring{
+    padding: 3vw 4vw;
+    margin-left: 2vw;
+}
+#rring button{
+    width: 20vw;
+    height: 5vw;
+    border: 1.5px solid black;
+    background-color: white;
+    border-radius: 100px;
+    margin: 3vw 10vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+#circle{
+    position: relative;
+    position: fixed;
+    width: 10vw;
+    z-index: 99;
+    bottom: 10%;
+    right: 5%;
+}
+#circle img{
+    position: relative;
+}
+#circle video{
+    position: absolute;
+    left: 25%;
+    top: 24%;
+    border-radius: 100px;
+    width: 5vw;
+}
+#pagevideo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#pagevideo>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+#top{
+    top: -10%;
+    right: 9%;
+    position: absolute;
+}
+#bottom{
+    bottom: 1%;
+    padding: 1vw 5vw;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+   
+}
+.invideo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50% ,50%);
+    color: white;
+}
+.invideo h1{
+    font-size: 10vw;
+    font-weight: 700;
+}
+.invideo button{
+    padding: 1vw 4vw;
+    border-radius: 100px;
+    border: 1px solid black;
+    font-size: 2vw;
+    font-weight: 800;
+    background-color: #fff;
+} 
+#bottom>button{
+    padding: 1vw;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: transparent;
+    color: white;
+}
+#bottom>h1{
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
